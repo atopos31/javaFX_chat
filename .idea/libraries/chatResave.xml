@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="chatResave">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/artifacts/chatResave_jar/chatResave.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,87 @@
+#loginPane {
+    -fx-background-image: url('../images/back.png');
+    -fx-background-size: cover;
+    -fx-background-position: center;
+}
+
+.scene {
+    -fx-background-color: transparent;
+}
+
+#min{
+    -fx-background-color: #00000000;
+    -fx-font-size: 10;
+    -fx-font-family: "Fira Code";
+    -fx-pref-width: 30;
+    -fx-border-radius: 0;
+    -fx-border-width: 0;
+}
+
+
+#min:hover{
+    -fx-background-color: #4cc5e8;
+    -fx-text-fill: white; /* 字体颜色 */
+}
+
+#clo{
+    -fx-background-color: #00000000;
+    -fx-font-size: 10;
+    -fx-font-family: "Fira Code";
+    -fx-pref-width: 30;
+    -fx-border-radius: 0;
+    -fx-border-width: 0;
+}
+
+#clo:hover{
+    -fx-background-color: RED;
+    -fx-text-fill: white; /* 字体颜色 */
+}
+
+.text-field {
+    -fx-background-color: transparent;
+    -fx-border-width: 0 0 1 0;
+    -fx-border-color: #ccc;
+    -fx-padding: 5 0 5 0;
+}
+.text-field:focused .label {
+    -fx-text-fill: #4d90fe;
+    -fx-underline: true;
+    -fx-underline-color: #4d90fe;
+}
+
+.text-field:focused {
+    -fx-border-color: #4d90fe;
+}
+
+#vanchorPane {
+    -fx-padding: 0;
+}
+
+#loginButton {
+    -fx-background-color: #1E90FF;
+    -fx-background-radius: 20;
+}
+
+#loginButton:hover {
+    -fx-background-color: #00BFFF;
+}
+
+#sendverfiy {
+    -fx-background-color: #1E90FF;
+    -fx-font-size: 10;
+    -fx-background-radius: 20;
+}
+
+#sendverfiy:hover {
+    -fx-background-color: #00BFFF;
+}
+
+#registerButton {
+    -fx-background-color: #1E90FF;
+    -fx-background-radius: 20;
+}
+
+#registerButton:hover {
+    -fx-background-color: #00BFFF;
+}
+

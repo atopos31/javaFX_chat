@@ -1,0 +1,23 @@
+#chatback {
+    -fx-background-image: url('../images/chatback.jpg');
+    -fx-background-size: cover;
+}
+
+#chatback .viewport{
+    -fx-background-color: transparent;
+}
+
+#chatarea{
+    -fx-background-color: transparent;
+}
+
+#send {
+    -fx-arc-width: 200;
+    -fx-background-color: #1E90FF;
+    -fx-background-radius: 20;
+}
+
+#send:hover {
+    -fx-background-color: #00BFFF;
+}
+

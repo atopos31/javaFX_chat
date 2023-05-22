@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="chatResave">
+    <output-path>$PROJECT_DIR$/out/artifacts/chatResave</output-path>
+    <root id="root">
+      <element id="archive" name="chatResave.jar">
+        <element id="module-output" name="chatResave" />
+      </element>
+    </root>
+  </artifact>
+</component>
